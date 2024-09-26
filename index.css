@@ -1,0 +1,59 @@
+*{
+    background-color:  black ;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      color: red;;
+  }
+  .name{
+      font-size: 10rem;
+      font-weight: 600;
+      font-family: Arial, Helvetica, sans-serif;
+      filter: drop-shadow(10px 2px 4px rgb(248, 245, 245));
+      color: red;
+  }
+  .banner
+  {
+      background-image: url("https://occ-0-5261-3663.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABer7SeWc6FvkBqWtk61GwL7rshAEVCOARQZVTEJGnLXykYBlO4nbbr6gs7M650BjULuaN6hucXKr5xY2iqPAajrxXd70HawdJeuD.jpg?r=608&quot");
+      background-size: cover;
+      background-position: center;
+      max-width: 100%;
+      background-repeat: no-repeat;
+      height: 500px;
+  }
+  .cards
+  {
+       display: flex;
+       overflow-y: hidden;
+       overflow-x: scroll;
+       margin: 1% 0.5%;
+       gap: 30px;
+  }
+  .cards::-webkit-scrollbar
+  {
+      display: none ;
+  }
+  .card
+  {
+      margin: 0% 0.5%;
+      border-radius: 0% 0.4%;
+  }
+  h1
+  {
+      padding-top: 3%;
+      font-size: 50PX;
+      padding-left: 2%;
+      padding-bottom: 2%;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-style: italic;
+  }
+  h2
+  {
+      font-weight: 400;
+      font-size: 1 rem;
+      padding: 2% 0;
+  }
+  .card3{
+    height: 50px 100px;
+    max-width: 500%;
+  }
